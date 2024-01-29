@@ -1,0 +1,19 @@
+{
+  "intelephense.environment.includePaths": ["vendor"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // add this code
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "php": {
+    "prefix": "php",
+    "body": ["<?php $1 ?>"],
+    "description": "php tag"
+  }
+}
